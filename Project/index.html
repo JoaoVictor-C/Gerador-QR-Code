@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de QR Code</title>
+</head>
+
+<body>
+    <main class="main display-flex">
+        <header class="main__header display-flex">
+            <h1 class="main__title">Gerador de QR Code</h1>
+        </header>
+        <section class="main__section display-flex">
+            <input class="main__input" type="text" name="conteudo" id="conteudo" placeholder="Insira o conteúdo do QR Code">
+            <div class="main__qr-code"></div>
+            <div class="main__buttons display-flex">
+                <button class="main__download-button" id="download-button">Download</button>
+                <button class="main__share-button" id="share-button">Compartilhar</button>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer display-flex">
+        <p class="footer__text">Código fonte <a class="footer__link" href="https://github.com/JoaoVictor-C/Gerador-QR-Code" target="_blank"><i class="fab fa-github fa-lg"></i></a></p>
+        <p class="footer__text">Desenvolvido por <a class="footer__link" href="https://github.com/JoaoVictor-C" target="_blank">João Victor</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/2b862a7e21.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

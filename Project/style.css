@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.main {
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+}
+
+.main__header {
+    width: 100%;
+    height: 18vh;
+}
+
+.main__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.main__section {
+    justify-content: space-evenly !important;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.main__input {
+    width: 25vw;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 0 10px #3333331a;
+}
+
+.main__input:focus {
+    border: 1px solid #33333362;
+    box-shadow: 0 0 10px #3333333e;
+}
+
+.main__input:hover {
+    box-shadow: 0 0 8px #3333333e;
+}
+
+
+.main__qr-code {
+    width: 25vw;
+    height: 25vw;
+    border: 1px solid #33333362;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #33333310;
+}
+
+.main__qr-code img {
+    width: 100%;
+    height: 100%;
+}
+
+.main__buttons {
+    justify-content: space-between !important;
+    width: 25vw;
+}
+
+.main__buttons button {
+    width: 48%;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.main__buttons button:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 10px #33333331;
+}
+
+.main__buttons button:active {
+    opacity: 0.9;
+    box-shadow: 0 0 6px #33333318;
+}
+
+.main__download-button {
+    background-color: #333;
+    color: #fff;
+}
+
+.main__download-button:active {
+    background-color: #333333;
+}
+
+.main__share-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #0101015e;
+}
+
+.main__share-button:active {
+    background-color: #f8f8f8;
+    border: 1px solid #33333362;
+}
+
+.main__share-button:hover {
+    border: 1px solid #333333c2;
+}
+
+.footer {
+    justify-content: space-between !important;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer__link:hover {
+    color: #333333a8;
+}
+
+.footer__link:active {
+    color: #333333c2;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
