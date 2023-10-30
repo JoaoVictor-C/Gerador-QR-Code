@@ -2,21 +2,22 @@ const download = document.querySelector("#download-button");
 const shareBtn = document.querySelector("#share-button");
 const qrContainer = document.querySelector("#qr-code");
 const qrText = document.querySelector("#conteudo");
+const generateBtn = document.querySelector("#generate-button");
 const sizes = document.querySelector(".main__select");
 
 const config = {
   colorLight: "#fff",
   colorDark: "#000",
   text: "Hello, world!",
-  size: 300
+  size: 500,
 };
 
-qrText.addEventListener("input", handleQRText);
+generateBtn.addEventListener("click", handleQRText);
 sizes.addEventListener("change", handleSize);
 shareBtn.addEventListener("click", handleShare);
 
 function handleQRText(e) {
-    const value = e.target.value;
+    const value = qrText.value;
     config.text = value || "Hello, world!";
     generateQRCode();
 }

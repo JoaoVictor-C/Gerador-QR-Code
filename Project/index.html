@@ -10,18 +10,21 @@
 </head>
 
 <body>
-    <main class="main display-flex">
-        <header class="main__header display-flex">
+    <main class="main display-flex align-items-center justify-content-center">
+        <header class="main__header display-flex align-items-center justify-content-center">
             <h1 class="main__title">Gerador de QR Code</h1>
         </header>
-        <section class="main__section display-flex">    
-            <input class="main__input" type="text" name="conteudo" id="conteudo" placeholder="Insira o conteúdo do QR Code">
+        <section class="main__section display-flex align-items-center">    
+            <div class="main__action display-flex align-items-center justify-content-center">
+                <input class="main__input" type="text" name="conteudo" id="conteudo" placeholder="Insira o conteúdo do QR Code">
+                <button class="main__generate-button" id="generate-button">Gerar</button>
+            </div>
             <select class="main__select" name="tamanho" id="tamanho">
                 <option value="100">100x100</option>
                 <option value="200">200x200</option>
                 <option value="300">300x300</option>
-                <option selected value="400">400x400</option>
-                <option value="500">500x500</option>
+                <option value="400">400x400</option>
+                <option selected value="500">500x500</option>
                 <option value="600">600x600</option>
                 <option value="700">700x700</option>
                 <option value="800">800x800</option>
@@ -29,8 +32,8 @@
                 <option value="1000">1000x1000</option>
             </select>
             <div class="main__qr-code" id="qr-code"></div>
-            <div class="main__buttons display-flex">
-                <a class="main__download-button main__btn display-flex" href="#" download="QRCode" id="download-button">       
+            <div class="main__buttons display-flex align-items-center">
+                <a class="main__download-button main__btn display-flex align-items-center justify-content-center" href="#" download="QRCode" id="download-button">       
                     <span>Download</s>
                 </a>
                 <button class="main__share-button main__btn" id="share-button">Compartilhar</button>
@@ -38,7 +41,7 @@
 
         </section>
     </main>
-    <footer class="footer display-flex">
+    <footer class="footer display-flex align-items-center justify-content-center">
         <p class="footer__text">Código fonte <a class="footer__link" href="https://github.com/JoaoVictor-C/Gerador-QR-Code" target="_blank"><i class="fab fa-github fa-lg"></i></a></p>
         <p class="footer__text">Desenvolvido por <a class="footer__link" href="https://github.com/JoaoVictor-C" target="_blank">João Victor</a></p>
     </footer>
