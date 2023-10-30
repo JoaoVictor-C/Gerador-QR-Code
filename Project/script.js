@@ -9,7 +9,7 @@ const config = {
   colorLight: "#fff",
   colorDark: "#000",
   text: "Hello, world!",
-  size: 500,
+  size: 300,
 };
 
 generateBtn.addEventListener("click", handleQRText);
