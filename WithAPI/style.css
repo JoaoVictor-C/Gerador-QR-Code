@@ -121,6 +121,7 @@ body {
 
 .main__qr-code {
     height: 25vw;
+    width: 25vw;
     padding: 0.5vw;
     border: 1px solid var(--border-color);
     border-radius: 2px;
@@ -261,11 +262,6 @@ body {
         width: 30%;
         border-radius: 5px;
 
-    }
-
-    .main__qr-code {
-        height: 60vw;
-        width: 60vw;
     }
 
     .main__buttons {
