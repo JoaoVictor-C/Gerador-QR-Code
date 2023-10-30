@@ -120,8 +120,8 @@ body {
 }
 
 .main__qr-code {
-    width: 20vw;
-    height: 20vw;
+    width: 50vw;
+    height: 50vw;
     padding: 0.5vw;
     border: 1px solid var(--border-color);
     border-radius: 2px;
@@ -129,8 +129,8 @@ body {
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 .main__buttons {
