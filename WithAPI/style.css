@@ -269,6 +269,11 @@ img {
         box-shadow: 0 0 20px var(--shadow-color);
     }   
 
+    img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 
     .main__buttons {
         width: 80%;
