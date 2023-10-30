@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f1f1f1;   
+}
+
+a {
+    text-decoration: none;
+    color: #ffffffd5;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333333dc;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px #333333dc;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+.link:active {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    a {
+        font-size: 1.5rem;
+    }
+}
