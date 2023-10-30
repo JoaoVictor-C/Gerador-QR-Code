@@ -235,7 +235,6 @@ img {
     }
 
     .main__section {
-        flex-direction: column;
         justify-content: space-evenly;
         width: 100%;
         height: 100%;
@@ -260,6 +259,16 @@ img {
         border-radius: 5px;
 
     }
+
+    .main__qr-code {
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        border: 1px solid var(--border-color);
+        border-radius: 2px;
+        box-shadow: 0 0 20px var(--shadow-color);
+    }   
+
 
     .main__buttons {
         width: 80%;
