@@ -121,7 +121,7 @@ body {
 
 .main__qr-code {
     height: 25vw;
-    padding: 1vw;
+    padding: 0.5vw;
     border: 1px solid var(--border-color);
     border-radius: 2px;
     box-shadow: 0 0 20px var(--shadow-color);
@@ -130,6 +130,9 @@ body {
 .main__qr-code img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+    padding: 0.5vw;
 }
 
 .main__buttons {
