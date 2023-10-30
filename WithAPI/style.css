@@ -120,8 +120,8 @@ body {
 }
 
 .main__qr-code {
-    width: 50vw;
-    height: 50vw;
+    width: 25vw;
+    height: 25vw;
     padding: 0.5vw;
     border: 1px solid var(--border-color);
     border-radius: 2px;
