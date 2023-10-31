@@ -64,7 +64,7 @@ function resolveDataUrl() {
             if (img.currentSrc) {
                 resolve(img.currentSrc);
                 return;
-            }
+            }   
             const canvas = document.querySelector("canvas");
             resolve(canvas.toDataURL());
         }, 50);
