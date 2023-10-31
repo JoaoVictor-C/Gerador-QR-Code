@@ -24,7 +24,7 @@ function handleQRText(e) {
 
 async function generateQRCode() {
     qrContainer.innerHTML = "";
-    new QRCode("#qr-code", {
+    new QRCode("qr-code", {
         text: config.text,
         height: config.size,
         width: config.size,
